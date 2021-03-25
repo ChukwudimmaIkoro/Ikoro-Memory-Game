@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 - [x] Dialogue box pops up on mistake telling you how many attempts the user has left
 - [x] Tab text changed from "Hello!" to link name 
 
-KNOWN BUG: This project was coded in Mozilla Firefox and is fully functional there. However, when used in Google Chrome, there
+KNOWN BUG: This project was coded in Mozilla Firefox and is fully functional there, as well as on Microsoft Edge. However, when used in Google Chrome, there
 is a chance that the audio for the buttons cuts out.
 
 ## Video Walkthrough
