@@ -49,7 +49,7 @@ button {
 }
 
 #button3:active, #button3.lit {
-    background:red;
+    background: red;
 }
 
 #button4 {
@@ -57,5 +57,21 @@ button {
 }
 
 #button4:active, #button4.lit {
-    background:yellow;
+    background: yellow;
+}
+
+#button5 {
+    background: darkorchid;
+}
+
+#button5:active, #button5.lit {
+    background: purple;
+}
+
+#button6 {
+    background: white;
+}
+
+#button6:active, #button6.lit {
+    background: gray;
 }

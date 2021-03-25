@@ -4,7 +4,7 @@
 
 Submitted by: **Chukwudimma Ikoro**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/ikoro-memory-game
 
@@ -24,22 +24,26 @@ The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [x] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [x] Dialogue box pops up on mistake telling you how many attempts the user has left
+- [x] Tab text changed from "Hello!" to link name 
+
+KNOWN BUG: This project was coded in Mozilla Firefox and is fully functional there. However, when used in Google Chrome, there
+is a chance that the audio for the buttons cuts out.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![demo](https://cdn.glitch.com/5584a93b-9743-44cd-9d8b-09894b846bed%2FIkoro%20Memory%20Walkthrough.gif?v=1615774480611)
+![demo](https://cdn.glitch.com/5584a93b-9743-44cd-9d8b-09894b846bed%2FMemory%20Game%20Walkthrough.gif?v=1616638125703)
 
 
 ## Reflection Questions
@@ -76,7 +80,7 @@ Here's a walkthrough of implemented user stories:
     moment. Maybe I could mess with the fonts more so the overall design of the title and description pops out more and is less stock,
     or design the buttons in a way that makes it look like it is a 3-Dimensional button being physically pushed inwards when clicked, 
     instead of just changing its color. I would also like to potentially add a feature that allows one to change the difficulty of the 
-    game before playing. I wouldadd three options- easy, medium and hard- and depending on what is chosen, the speed and length of the
+    game before playing. I would add three options- easy, medium and hard- and depending on what is chosen, the speed and length of the
     game would change. To do this, I would add buttons to the start with each difficulty, and refactor the given functions that set button
     patterns and speeds to change the setup of the game based on what difficulty is chosen.
 
