@@ -2,8 +2,24 @@
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 
+function randomNumber(min, max) { 
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+} 
+
+function getPattern() {
+  
+  var newArr = new Array(8);
+  for (var i = 0; i < 8; i++) {
+    newArr[i] = randomNumber(1, 6);
+  }
+  return newArr;
+}
+
+
 //Global Variables
-var pattern = [2, 6, 5, 3, 2, 1, 2, 4];
+var pattern;
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying = false;
@@ -13,13 +29,15 @@ var cluePauseTime = 222; //how long to pause in between clues
 var guessCounter = 0;
 var numMistakes = 0;
 
-
 function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
     numMistakes = 0;
-  
+    pattern = getPattern(); 
+    clueHoldTime = 800;
+    cluePauseTime = 222;
+
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.add("hidden");
     document.getElementById("stopBtn").classList.remove("hidden");

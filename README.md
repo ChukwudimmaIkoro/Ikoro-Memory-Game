@@ -4,7 +4,7 @@
 
 Submitted by: **Chukwudimma Ikoro**
 
-Time spent: **3** hours spent in total
+Time spent: **4** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/ikoro-memory-game
 
@@ -26,8 +26,12 @@ The following **optional** features are implemented:
 * [x] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
-
+* [x] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
+* [x] Player only loses after 3 mistakes (instead of on the first mistake)
 
 The following **additional** features are implemented:
 
@@ -40,7 +44,7 @@ is a chance that the audio for the buttons cuts out.
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![demo](https://cdn.glitch.com/5584a93b-9743-44cd-9d8b-09894b846bed%2FMemory%20Game%20Walkthrough.gif?v=1616638125703)
+![demo](https://cdn.glitch.com/5584a93b-9743-44cd-9d8b-09894b846bed%2FMemory%20Walkthrough.gif?v=1617679424839)
 
 
 ## Reflection Questions
