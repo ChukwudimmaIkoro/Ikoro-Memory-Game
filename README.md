@@ -6,7 +6,7 @@ Submitted by: **Chukwudimma Ikoro**
 
 Time spent: **4** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/ikoro-memory-game
+Link to project: https://ikoro-memory-game.glitch.me
 
 ## Required Functionality
 
