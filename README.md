@@ -8,7 +8,7 @@ Time spent: **4** hours spent in total
 
 Link to project: https://ikoro-memory-game.glitch.me
 
-# **KNOWN BUG**: This project was coded in Mozilla Firefox and is fully functional there, as well as on Microsoft Edge. However, when used in Google Chrome, there is a chance that the audio for the buttons cuts out.
+This project was coded in Mozilla Firefox and is fully functional there. However, when used in Google Chrome or Microsoft Edge, there is a chance that the audio for the buttons cuts out. This is due to the way Chromium browsers process sound effects like the one in this app, as it sometimes removes them to free up bandwidth, so it is recommended to use this application in Firefox or other non-Chromium browsers.
 
 
 ## Required Functionality
