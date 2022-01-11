@@ -1,4 +1,4 @@
-# Pre-work - *Memory Game*
+# *Memory Game*
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
@@ -7,6 +7,9 @@ Submitted by: **Chukwudimma Ikoro**
 Time spent: **4** hours spent in total
 
 Link to project: https://ikoro-memory-game.glitch.me
+
+# **KNOWN BUG**: This project was coded in Mozilla Firefox and is fully functional there, as well as on Microsoft Edge. However, when used in Google Chrome, there is a chance that the audio for the buttons cuts out.
+
 
 ## Required Functionality
 
@@ -37,9 +40,11 @@ The following **additional** features are implemented:
 - [x] Dialogue box pops up on mistake telling you how many attempts the user has left
 - [x] Tab text changed from "Hello!" to link name 
 
+
 KNOWN BUG: This project was coded in Mozilla Firefox and is fully functional there. However, when used in Google Chrome, there
 is a chance that the audio for the buttons cuts out. This is due to the way Chromium browsers process sound,
 so it is recommended to use this application in Firefox.
+
 
 ## Video Walkthrough
 
