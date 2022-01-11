@@ -6,7 +6,7 @@ Submitted by: **Chukwudimma Ikoro**
 
 Time spent: **4** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/ikoro-memory-game
+Link to project: https://ikoro-memory-game.glitch.me
 
 ## Required Functionality
 
@@ -31,15 +31,15 @@ The following **optional** features are implemented:
 * [x] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
-* [x] Player only loses after 3 mistakes (instead of on the first mistake)
 
 The following **additional** features are implemented:
 
 - [x] Dialogue box pops up on mistake telling you how many attempts the user has left
 - [x] Tab text changed from "Hello!" to link name 
 
-KNOWN BUG: This project was coded in Mozilla Firefox and is fully functional there, as well as on Microsoft Edge. However, when used in Google Chrome, there
-is a chance that the audio for the buttons cuts out.
+KNOWN BUG: This project was coded in Mozilla Firefox and is fully functional there. However, when used in Google Chrome, there
+is a chance that the audio for the buttons cuts out. This is due to the way Chromium browsers process sound,
+so it is recommended to use this application in Firefox.
 
 ## Video Walkthrough
 

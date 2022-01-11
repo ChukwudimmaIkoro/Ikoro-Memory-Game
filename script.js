@@ -1,23 +1,6 @@
 // global constants
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
-
-function randomNumber(min, max) { 
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-} 
-
-function getPattern() {
-  
-  var newArr = new Array(8);
-  for (var i = 0; i < 8; i++) {
-    newArr[i] = randomNumber(1, 6);
-  }
-  return newArr;
-}
-
-
 //Global Variables
 var pattern;
 var progress = 0; 
@@ -28,6 +11,27 @@ var clueHoldTime = 800; //how long to hold each clue's light/sound
 var cluePauseTime = 222; //how long to pause in between clues
 var guessCounter = 0;
 var numMistakes = 0;
+var patternLength = 8;
+var numBtns = 6;
+
+
+function randomNumber(min, max) { 
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+} 
+
+function getPattern() {
+  
+  var newArr = new Array(patternLength);
+  for (var i = 0; i < patternLength; i++) {
+    newArr[i] = randomNumber(1, numBtns);
+  }
+  return newArr;
+}
+
+
+
 
 function startGame(){
     //initialize game variables
@@ -37,6 +41,7 @@ function startGame(){
     pattern = getPattern(); 
     clueHoldTime = 800;
     cluePauseTime = 222;
+  
 
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.add("hidden");
@@ -176,3 +181,8 @@ g.connect(context.destination)
 g.gain.setValueAtTime(0,context.currentTime)
 o.connect(g)
 o.start(0)
+
+//Initialization so that the buttons aren't useless before the game starts
+for (let i = 0; i < patternLength; i++) pattern[i] = Math.round(Math.random()*numBtns);
+let startingFreq = Math.random()*120+120;
+for (let i = 0; i < numBtns; i++) freqMap[i+1] = startingFreq+30*i;
